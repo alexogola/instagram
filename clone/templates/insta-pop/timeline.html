@@ -22,12 +22,12 @@
                 </a>
                 <div style="margin:10px;">
                     <a href="{% url 'like' image.id %}">
-                        <span class="glyphicon glyphicon-heart-empty" style="font-size:30px;" id='like_button'></span>&nbsp;&nbsp;&nbsp;
+                      <i class="far fa-heart" style="font-size:30px;" id='like_button'></i>&nbsp;&nbsp;&nbsp;    
                     </a>
                     <a href="{% url 'comment' image.id %}">
-                        <span class="glyphicon glyphicon-edit" style="font-size:30px;"></span>
+                        <i class="far fa-edit" style="font-size:30px;"></i>
                     </a>
-                    <span class="glyphicon glyphicon-bookmark" style="font-size:30px;float:right;"></span>
+                    <i class="far fa-bookmark" style="font-size:30px;float:right;"></i>
                     <hr>
                     <h5 style="font-weight: bolder;">{{image.likes}} likes</h5>
                     <div style="overflow: hidden; height:50px;">
