@@ -1,4 +1,4 @@
-## Instagram Clone
+# Instagram Clone
 
 This is a clone of the popular App Instagram, 11/03/2019
 
@@ -6,7 +6,7 @@ This is a clone of the popular App Instagram, 11/03/2019
 
 Alex Ogola
 
-# DESCRIPTION
+## Description
 
 ####This application allows its users to do the following
 
