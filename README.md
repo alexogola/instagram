@@ -1,6 +1,6 @@
-## Gallery
+## Instagram Clone
 
-A personal gallery application that I display my photos for others to see.
+This is a clone of the popular App Instagram, 11/03/2019
 
 ## Author
 
@@ -8,13 +8,13 @@ Alex Ogola
 
 # DESCRIPTION
 
-This is an app that allows users to view photos and get information about where the photos were taken and a brief descricption of the photos.
+####This application allows its users to do the following
 
-#### Gallery Categories
-* Art
-* Fashion
-* Luxury
-* Food
+* Sign in to the application to start using.
+* Upload my pictures to the application.
+* See my profile with all my pictures.
+* Follow other users and see their pictures on my timeline.
+* Like a picture and leave a comment on it.
 
 
 ## Prerequisites
@@ -30,13 +30,13 @@ This is an app that allows users to view photos and get information about where 
 
 * psql
 * CREATE DATABASE gallery
-* connect to the database \c gallery
+* connect to the database \c instagram
 * check if tables have been created \dt
 
 #Run migrations
 
 * python3.6 manage.py migrate
-* python3.6 manage.py makemigrations gallerys
+* python3.6 manage.py makemigrations instagram
 
 #Running the app
 
@@ -44,7 +44,7 @@ This is an app that allows users to view photos and get information about where 
 
 #testing
 
-* python3.6 manage.py test gallerys
+* python3.6 manage.py test instagram
 
 
 # Technologies Used
@@ -60,10 +60,13 @@ This is an app that allows users to view photos and get information about where 
 ## Behaviour driven development
 | Behaviour   |      Input     |  Output |
 |----------|:-------------:|------:|
-| Display Images | Link to the landing page |   User can view different Images |
-| Expand Image (View full size) | Click "View Full Size" button |   Expanded Image |
+| User Sign In | Enter user details on sign in page |   Account and profile created |
+| User Log In | Enter user details on log in page |   User redirected to the timeline upon successful log in |
+| Follow other users | Visit User profiles |   Click "follow" button |
+| Display Images | Visit the timeline page |   User can view Images in cronological order |
+| Like Image | Click on the "heart shaped" icon at the bootom of a picture |   Like is recorded |
+| Expand Image | Click on image |   Expanded Image on an individual page |
 | View More Details | Expand Image |  More details appear on the right side of the expanded image |
-| Copy a link to the photo | Click "Copy Link" button in the details section |  Link is copied to the clipboard |
 
 
 # License
