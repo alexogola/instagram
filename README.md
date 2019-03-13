@@ -8,7 +8,7 @@ Alex Ogola
 
 ## Description
 
-####This application allows its users to do the following
+#### This application allows its users to do the following
 
 * Sign in to the application to start using.
 * Upload my pictures to the application.
@@ -26,23 +26,23 @@ Alex Ogola
 * $ source virtual/bin/activate
 * Install all the necessary requirements by running pip install -r requirements.txt (Python 3).
 
-#create a database
+# create a database
 
 * psql
 * CREATE DATABASE gallery
 * connect to the database \c instagram
 * check if tables have been created \dt
 
-#Run migrations
+# Run migrations
 
 * python3.6 manage.py migrate
 * python3.6 manage.py makemigrations instagram
 
-#Running the app
+# Running the app
 
 * python3.6 manage.py runserver
 
-#testing
+# testing
 
 * python3.6 manage.py test instagram
 
