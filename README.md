@@ -62,8 +62,8 @@ Alex Ogola
 |----------|:-------------:|------:|
 | User Sign In | Enter user details on sign in page |   Account and profile created |
 | Edit profile | Click "Edit profile" button on profile page |   Enter details |
-| User Log In | Enter user details on log in page |   User redirected to the timeline upon successful log in |
-| Follow other users | Visit User profiles |   Click "follow" button |
+| User Log In | Enter user details on log in page |   User redirected to the profiles page upon successful log in |
+| Follow other users | Visit profiles page |   Click "follow" button |
 | Display Images | Visit the timeline page |   User can view Images in cronological order |
 | Like Image | Click on the "heart shaped" icon at the bootom of a picture |   Like is recorded |
 | Expand Image | Click on image |   Expanded Image on an individual page |
