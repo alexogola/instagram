@@ -26,28 +26,28 @@ Alex Ogola
 * $ source virtual/bin/activate
 * Install all the necessary requirements by running pip install -r requirements.txt (Python 3).
 
-# create a database
+## create a database
 
 * psql
 * CREATE DATABASE gallery
 * connect to the database \c instagram
 * check if tables have been created \dt
 
-# Run migrations
+## Run migrations
 
 * python3.6 manage.py migrate
 * python3.6 manage.py makemigrations instagram
 
-# Running the app
+## Running the app
 
 * python3.6 manage.py runserver
 
-# testing
+## testing
 
 * python3.6 manage.py test instagram
 
 
-# Technologies Used
+## Technologies Used
 
 #### This project uses major technologies which are :
 * HTML5
@@ -70,7 +70,7 @@ Alex Ogola
 | View More Details | Expand Image |  More details appear on the right side of the expanded image |
 
 
-# License
+## License
 
 * MIT License
 
